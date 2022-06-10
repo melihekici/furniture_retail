@@ -1,5 +1,4 @@
-from tokenize import String
-from sqlalchemy import Column, Integer, MetaData, Table
+from sqlalchemy import Column, Integer, MetaData, Table, String
 from sqlalchemy.orm import mapper, relationship
 import model
 
