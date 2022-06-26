@@ -6,7 +6,7 @@ from datetime import date
 from exceptions import OutOfStock
 
 
-@dataclass(frozen=True)
+@dataclass(unsafe_hash=True)
 class OrderLine:
     orderid: str
     sku: str
